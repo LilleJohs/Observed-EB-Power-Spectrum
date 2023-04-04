@@ -9,7 +9,9 @@ EB_power_spectrum = np.load('HFI_f_sky_092_EB_o.npy')
 mean_values = EB_power_spectrum[:, 0]
 std_values = EB_power_spectrum[:, 1]
 ```
-where `mean_values` gives you the mean values and `std_values` gives you the error bars. See the script `plot_eb.py` on how to plot it.
+where `mean_values` gives you the mean values and `std_values` gives you the error bars.
+
+To show how one can use the observed EB power spectrum to do parameter estimation, we have included a Jupyter Notebook `tutorial.ipynb` which shows how plot it and use it to sample $\alpha+\beta$.
 
 ## Citation
 
